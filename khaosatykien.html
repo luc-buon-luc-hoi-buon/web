@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin-top: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+      center {
+        font-weight: bold;
+        font-size: x-large;
+      }
+      h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: medium;
+      }
+      hr {
+        width: 460px;
+      }
+
+      div {
+        font-size: medium;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      .fieldset1 {
+        display: flex;
+        justify-content: center;
+      }
+      .fieldset1 table tr td {
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+
+      .fieldset1 table tr td textarea {
+        width: 650px;
+        height: 50px;
+        resize: none;  
+      }
+      .fieldset2 table tr td img{
+        width: 120px;
+        margin-left: 550px;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <center>KHẢO SÁT Ý KIẾN</center>
+
+    <h1>
+      V/V: Các kỹ năng cần có đối với sinh viên để thành công trong công việc
+    </h1>
+    <hr />
+    <div>
+      Theo bạn kỹ năng nào là cần thiết nhất đối với bạn trong số các kỹ năng
+      sau:
+    </div>
+
+    <fieldset class="fieldset1">
+      <legend>Kỹ năng mềm cần có</legend>
+      <table>
+        <tr>
+          <td>
+            <input type="checkbox" />Kỹ năng đặt mục tiêu <br />
+            <input type="checkbox" />Sáng tạo trong công việc <br />
+            <input type="checkbox" />Biết lắng nghe và học tập những lời phê
+            bình <br />
+            <input type="checkbox" />Giao tiếp hiệu quả <br />
+            <input type="checkbox" />Tự tin, năng đông và biết lôi kéo người
+            khác <br />
+          </td>
+          <td class="td1">
+            <input type="checkbox" />Kỹ năng làm việc đồng đội <br />
+            <input type="checkbox" />Kỹ năng khám phá và lãnh đạo bản thân
+            <br />
+            <input type="checkbox" />Kỹ năng tổ chức công việc và quản lý thời
+            gian <br />
+            <input type="checkbox" />Kỹ năng ra quyết định <br />
+            <input type="checkbox" />Kỹ năng giải quyết vấn đề <br />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="">Ý kiến khác: </label>
+            <textarea name="" id=""></textarea>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <br />
+
+    <fieldset class="fieldset2">
+      <legend>Thông tin cá nhân</legend>
+      <table>
+        <tr>
+          <td><label for="">Họ và tên: </label> <input type="text" /></td>
+          <td rowspan="3">
+            <img src="bieudo.jpg" alt="Ảnh biểu đồ">
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Độ tuổi:</td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Giới tính: </label>
+            <input type="radio" name="GT" /> Nam
+            <input type="radio" name="GT" /> Nữ
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+  </body>
+</html>
